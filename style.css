@@ -152,22 +152,47 @@
 
    @media(max-width: 1024px) {
         .text-silvio{
-
+            flex-flow: column;
         }
 
        .card-black, .card-white {
-           min-height: 500px !important;
-           max-height: 500px !important;
+           min-height: 400px !important;
+           max-height: 400px !important;
        }
 
        .card-black h3, .card-white h3 {
-            font-size: 1.4rem;
+            font-size: 1.6rem;
        }
 
        
        .card-white img, .card-black img{
-        width: 80%;
+            display: none;
+        }
+   }
+
+   @media (max-width: 769px) {
+       .contato {
+           flex-flow: column;
+       }
+   }
+
+   @media(max-width: 425px) {
+       .orange-card{
+           margin-top: -25%;
+       }
+
+       .foto-silvio_img {
+        width: 280px;
         height: auto;
-        margin-top: 2rem;
+    }
+
+       .bio-silvio_p1, .bio-silvio_p2 {
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .card-black, .card-white {
+        min-height: 350px !important;
+        max-height: 350px !important;
     }
    }
