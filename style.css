@@ -205,6 +205,10 @@
         height: auto;
     }
 
+    .enviar-mensagem {
+        margin-bottom: 10px !important;
+    }
+
        .bio-silvio_p1, .bio-silvio_p2 {
         font-size: .9rem;
         text-align: center;
