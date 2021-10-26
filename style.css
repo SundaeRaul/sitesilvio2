@@ -154,6 +154,14 @@
        background: white;
        color: #023047;
    }
+
+   .icons {
+       margin-bottom: -2% !important;
+   }
+
+   .icons i {
+        color: #023047 !important;
+   }
    /*END FORM*/
 
    /*FOOTER*/
