@@ -20,7 +20,7 @@
 
    /*SECTION1*/
    .section1 {
-       background-color: #8ecae6;
+       background-color: #3888ad;
    }
 
    .orange-card {
@@ -38,7 +38,7 @@
    .saiba-mais{
        outline: none;
        border: 2px solid transparent;
-       background: #8ecae6;
+       background: #3888ad;
        font-size: 1.4rem;
        font-weight: 400;
        width: 100%;
